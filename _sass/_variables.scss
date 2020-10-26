@@ -46,7 +46,12 @@ $type-size-8                : 0.625em;  // ~10px
 /*
    Colors
    ========================================================================== */
+$sailor-blue                : #00203fff;
+$salior-blue-hover          : #2c6094;
 
+$mint                       : #adefd1ff;
+$mint-hover                 : #8dc2aa;
+  
 $gray                       : #7a8288;
 $dark-gray                  : mix(#000, $gray, 40%);
 $darker-gray                : mix(#000, $gray, 60%);
@@ -54,10 +59,20 @@ $light-gray                 : mix(#fff, $gray, 50%);
 $lighter-gray               : mix(#fff, $gray, 90%);
 
 $body-color                 : #9fe3e3;
-$background-color           : #e8ffff;
+
+$background-color           : #adefd1ff;
+$nav-background-color       : $sailor-blue;
+$content-background-color   : $mint;
+
 $code-background-color      : #fafafa;
 $code-background-color-dark : $light-gray;
+
 $text-color                 : $dark-gray;
+$text-nav-color             : $content-background-color
+$text-content-color         : $nav-background-color;
+
+$text-nav-color-hover       : $mint-hover;
+$text-content-color-hover   : $sailor-blue-hover;
 $border-color               : $lighter-gray;
 
 $primary-color              : #7a8288;
