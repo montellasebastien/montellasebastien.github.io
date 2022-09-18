@@ -698,8 +698,10 @@ input, select, textarea {
 		}
 
 	.mapcontainer {
-		width: 30%;
+		display: block;
+		justify-content: center;
 		margin: 0 auto;
+		
 		
 	}
 
