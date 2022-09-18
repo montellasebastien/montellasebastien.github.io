@@ -698,9 +698,8 @@ input, select, textarea {
 		}
 
 	.mapcontainer {
-		display: flex;
-		margin: 0 auto;
-		justify-content: "center";
+		padding-left: 2em;
+		
 	}
 
 /* Row */
