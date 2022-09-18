@@ -702,6 +702,10 @@ input, select, textarea {
 		
 	}
 
+	.clstrm_bottom_shadow {
+		left: 75px;
+	}
+
 /* Row */
 
 	.row {
