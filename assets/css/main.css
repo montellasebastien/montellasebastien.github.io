@@ -698,12 +698,14 @@ input, select, textarea {
 		}
 
 	.mapcontainer {
-		padding-left: 2em;
+		width: 30%;
+		margin: 0 auto;
 		
 	}
 
-	.clstrm_bottom_shadow {
-		left: 75px;
+	#clstr_globe {
+		display: flex;
+		
 	}
 
 /* Row */
