@@ -697,6 +697,11 @@ input, select, textarea {
 
 		}
 
+	.mapcontainer {
+		display: flex;
+		 justify-content: "center";
+	}
+
 /* Row */
 
 	.row {
